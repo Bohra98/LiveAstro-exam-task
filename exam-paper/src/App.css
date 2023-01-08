@@ -1,3 +1,4 @@
+@import '~antd/dist/reset.css';
 .App {
   text-align: center;
 }
@@ -5,6 +6,39 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.ques-div {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  position: fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.ans-div{
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+}
+
+.ant-card{
+  margin-top: 20px;
+}
+
+.prev-btn{
+  float: left;
+  margin-bottom: 10px;
+}
+
+.submit-btn{
+  float: right;
+}
+.ant-card-bordered {
+  border: 1px solid #f0f0f0 !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
